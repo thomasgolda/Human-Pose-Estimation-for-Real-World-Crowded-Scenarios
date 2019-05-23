@@ -8,8 +8,8 @@ Human pose estimation has recently made significant progress with the adoption o
 
 ## Citation
 
-We believe in open research and we are happy if you find this code useful.   
-If you use it, please cite our [work](link zu arxiv paper nach submission).
+We believe in open research and we are happy if you find our work inspiring.   
+If you use our code and results, please cite our [work](link zu arxiv paper nach submission).
 
 ```latex
 @inproceedings{golda2019crowdposeestimation,
@@ -27,9 +27,7 @@ If you use it, please cite our [work](link zu arxiv paper nach submission).
 | Ours            | 65.5    | 75.2    | **66.6**  | 53.1    |
 
 ## JTA Extension
-* Link zum Datensatz mit Annotationen
-* inkludiere evtl ergänzende Annotationen für original JTA
-* link zum JTA Datensatz
+For our experiments we created an extension to the work of Fabbri et al. which can be downloaded [here](link zum zip datensatz mit annotationen). Since we have our own format of annotation, we also provide adjusted annotation for the original JTA dataset, which can be found [here](annotationen für JTA). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when using our results.
 
 ## Code
 Our code for training will be available here soon.
