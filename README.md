@@ -19,11 +19,11 @@ We believe in open research and we are happy if you find our work inspiring. If 
 ```
 
 ## Results
-| Method          | AP       | AP_easy  | AP_medium | AP_hard  |
-|-----------------|----------|----------|-----------|----------|
-| Xiao et al. [1] | 60.8     | 71.4     | 61.2      | 51.2     |
-| Li et al. [2]   | **66.6** | **75.7** | 66.3      | **57.4** |
-| Ours            | 65.5     | 75.2     | **66.6**  | 53.1     |
+| Method          | AP         | AP_easy    | AP_medium   | AP_hard    |
+|-----------------|:----------:|:----------:|:-----------:|:----------:|
+| Xiao et al. [1] | 60.8       | 71.4       | 61.2        | 51.2       |
+| Li et al. [2]   | **66.6**   | **75.7**   | 66.3        | **57.4**   |
+| Ours            | 65.5       | 75.2       | **66.6**    | 53.1       |
 
 ## JTA Extension
 For our experiments we created an extension to the dataset provided by Fabbri et al. which can be requested [here](link zum zip datensatz mit annotationen). Since we have our own format of annotation, we provide adjusted annotation for the original JTA dataset as well, which can be found [here](annotationen für JTA). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when relating to our results.
