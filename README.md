@@ -20,19 +20,19 @@ If you use our code and results, please cite our [work](link zu arxiv oder avss 
 ```
 
 ## Results
-| Method          | AP      | AP_easy | AP_medium | AP_hard |
-|-----------------|---------|---------|-----------|---------|
-| Xiao et al. [1] | 60.8    | 71.4    | 61.2      | 51.2    |
-| Li et al. [2]   | **66.6**| **75.7**| 66.3      | **57.4**|
-| Ours            | 65.5    | 75.2    | **66.6**  | 53.1    |
+| Method          | AP       | AP_easy  | AP_medium | AP_hard  |
+|-----------------|----------|----------|-----------|----------|
+| Xiao et al. [1] | 60.8     | 71.4     | 61.2      | 51.2     |
+| Li et al. [2]   | **66.6** | **75.7** | 66.3      | **57.4** |
+| Ours            | 65.5     | 75.2     | **66.6**  | 53.1     |
 
 ## JTA Extension
-For our experiments we created an extension to the work of Fabbri et al. which can be downloaded [here](link zum zip datensatz mit annotationen). Since we have our own format of annotation, we also provide adjusted annotation for the original JTA dataset as well, which can be found [here](annotationen für JTA). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when using our results.
+For our experiments we created an extension to the work of Fabbri et al. which can be downloaded [here](link zum zip datensatz mit annotationen). Since we have our own format of annotation, we provide adjusted annotation for the original JTA dataset as well, which can be found [here](annotationen für JTA). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when using our results.
 
 ## Code
 Our code for training will be available here soon.
 
 ## References
-[1] Xiao, B., Wu, H., & Wei, Y. (2018). Simple baselines for human pose estimation and tracking. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 466-481).
+[1] Xiao, B., Wu, H., & Wei, Y. (2018). _Simple baselines for human pose estimation and tracking. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 466-481)_.
 
-[2] Li, J., Wang, C., Zhu, H., Mao, Y., Fang, H. S., & Lu, C. (2018). CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark. arXiv preprint arXiv:1812.00324.
+[2] Li, J., Wang, C., Zhu, H., Mao, Y., Fang, H. S., & Lu, C. (2018). _CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark. arXiv preprint arXiv:1812.00324_.
