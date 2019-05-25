@@ -25,6 +25,8 @@ We believe in open research and we are happy if you find our work inspiring. If 
 | Li et al. [2]   | **66.6**   | **75.7**   | 66.3        | **57.4**   |
 | Ours            | 65.5       | 75.2       | **66.6**    | 53.1       |
 
+![Qualitative results](https://github.com/thomasgolda/Human-Pose-Estimation-for-Real-World-Crowded-Scenarios/blob/master/avss2019_crowd-paper-qualitative-results.png?raw=true)
+
 ## JTA Extension
 For our experiments we created an extension to the dataset provided by Fabbri et al. which can be requested [here](link zum zip datensatz mit annotationen). Since we have our own format of annotation, we provide adjusted annotation for the original JTA dataset as well, which can be found [here](annotationen für JTA). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when relating to our results.
 
