@@ -30,6 +30,32 @@ We believe in open research and we are happy if you find our work inspiring. If 
 ## JTA Extension
 For our experiments we created an extension to the dataset provided by Fabbri et al. which can be requested [here](link zum zip datensatz mit annotationen). Since we have our own format of annotation, we provide adjusted annotation for the original JTA dataset as well, which can be found [here](annotationen für JTA). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when relating to our results.
 
+The annotation files for each sequence can be found in the respective directories as `coords.csv`. The annotation format 
+is aligned to the base JTA format, with the exception that the entries `row[10] - row[16]` are not part of the original JTA annotations.
+In order to fully align the format, `row[10] - row[16]` can simply be dropped.
+
+
+| Element   | Name          | Description                                                  |
+| --------  | ------------- | ------------------------------------------------------------ |
+| `row[0]`  | frame number  | number of the frame to which the joint belongs               |
+| `row[1]`  | person ID     | unique identifier of the person to which the joint belongs   |
+| `row[2]`  | joint type    | identifier of the type of joint; see 'Joint Types' subsection |
+| `row[3]`  | x2D           | 2D _x_ coordinate of the joint in pixel                      |
+| `row[4]`  | y2D           | 2D _y_ coordinate of the joint in pixel                      |
+| `row[5]`  | x3D           | 3D _x_ coordinate of the joint in meters                     |
+| `row[6]`  | y3D           | 3D _y_ coordinate of the joint in meters                     |
+| `row[7]`  | z3D           | 3D _z_ coordinate of the joint in meters                     |
+| `row[8]`  | occluded      | `1` if the joint is occluded; `0` otherwise                  |
+| `row[9]`  | self-occluded | `1` if the joint is occluded by its owner; `0` otherwise     |
+| `row[10]` | cam_3D_x      | 3D _x_ coordinate of the camera (not included in JTA base)   |
+| `row[11]` | cam_3D_y      | 3D _y_ coordinate of the camera (not included in JTA base)   |
+| `row[12]` | cam_3D_z      | 3D _z_ coordinate of the camera (not included in JTA base)   |
+| `row[13]` | cam_rot_x     | _x_ rotation of the camera (not included in JTA base)        |
+| `row[14]` | cam_rot_y     | _y_ rotation of the camera (not included in JTA base)        |
+| `row[15]` | cam_rot_z     | _z_ rotation of the camera (not included in JTA base)        |
+| `row[16]` | fov           | fov of the camera (not included in JTA base)                 |
+
+
 ## Code
 Our code for training will be available here soon.
 
