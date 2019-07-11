@@ -1,0 +1,1 @@
+The imagenet pre-trained weights for tf_slims ResNet 50, ResNet 101 ResNet 152 can be downloaded from [here](https://github.com/tensorflow/models/tree/master/research/slim)

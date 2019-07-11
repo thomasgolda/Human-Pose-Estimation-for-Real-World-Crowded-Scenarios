@@ -1,0 +1,42 @@
+DATASET: ../datasets/CrowdPose.yaml
+EXPERIMENT_NAME: crowd_pose_base
+MODEL:
+  backbone: resnet50
+  input_shape:
+  - 256
+  - 192
+  interference_joints: true
+  occluded_cross_branch: false
+  occluded_detection: false
+  occluded_hard_loss: false
+  occluded_loss_weight: 1.0
+  stop_crossbranch_grad: false
+TEST:
+  flip_test: true
+  oks_nms_thr: 0.9
+  score_thr: 0.2
+  test_batch_size: 64
+  testset: test
+  useGTbbox: false
+TRAIN:
+  batch_norm: true
+  batch_size: 64
+  coco_cutout: false
+  coco_person_cutout: false
+  coco_root: ../../../data/coco
+  end_epoch: 140
+  fixed_seed: true
+  fullbodycut: false
+  lr: 0.001
+  lr_dec_epoch:
+  - 90
+  - 120
+  lr_dec_factor: 10
+  optimizer: adam
+  random_cutout: false
+  reset_v_flags: false
+  rotation_factor: 40
+  scale_factor: 0.35
+  structure_aware_loss: false
+  structure_aware_loss_weight: 0.6
+  weight_decay: 1.0e-05

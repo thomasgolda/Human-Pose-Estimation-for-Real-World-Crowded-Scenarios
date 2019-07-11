@@ -1,0 +1,13 @@
+name: PoseTrack
+num_kpts: 17
+kpt_format: PoseTrack
+root: ../../../data/PoseTrack
+train_set: combined_annotations/train2018.json
+val_set: combined_annotations/val2018.json
+test_set: combined_annotations/test2018.json
+human_dets: dets/human_detection.json
+train_images: ""
+val_images: ""
+test_images: ""
+
+

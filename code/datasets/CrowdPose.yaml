@@ -1,0 +1,13 @@
+name: CrowdPose
+num_kpts: 14
+kpt_format: CrowdPose
+root: ../../Optimization-of-Human-Body-Pose-Estimation-for-Crowd-Applications/code/data/CrowdPose
+train_set: annotations/json/crowdpose_train.json
+val_set: annotations/json/crowdpose_val.json
+test_set: annotations/json/crowdpose_test.json
+human_dets: dets/human_detection_test.json
+train_images: images
+val_images: images
+test_images: images
+
+

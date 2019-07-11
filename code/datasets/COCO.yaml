@@ -1,0 +1,13 @@
+name: COCO
+num_kpts: 17
+kpt_format: COCO
+root: ../../../data/coco
+train_set: annotations/person_keypoints_train2017.json
+val_set: annotations/person_keypoints_val2017.json
+test_set: annotations/
+human_dets: dets/human_detection.json
+train_images: images/train2017
+val_images: images/val2017
+test_images:
+
+

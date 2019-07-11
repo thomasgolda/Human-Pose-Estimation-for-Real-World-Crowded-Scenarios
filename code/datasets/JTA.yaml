@@ -1,0 +1,11 @@
+name: JTA
+num_kpts: 14
+kpt_format: CrowdPose
+root: ../../../data/JTA-Data
+train_set: combined_annotations/train2018.json
+val_set: combined_annotations/val2018.json
+test_set: combined_annotations/test2019_subset_ci.json
+human_dets: ""
+train_images: ""
+val_images: ""
+test_images: ""

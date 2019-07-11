@@ -28,7 +28,7 @@ We believe in open research and we are happy if you find our work inspiring. If 
 <div style="text-align: center;"><img src="https://github.com/thomasgolda/Human-Pose-Estimation-for-Real-World-Crowded-Scenarios/blob/master/avss2019_crowd-paper-qualitative-results.png?raw=true" alt="Qualitative results" /></div>
 
 ## JTA Extension
-For our experiments we created an extension to the dataset provided by Fabbri et al. which can be requested [here](link zum zip datensatz mit annotationen). Since we have our own format of annotation, we provide adjusted annotation for the original JTA dataset as well, which can be found [here](annotationen für JTA). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when relating to our results.
+For our experiments we created an extension to the dataset provided by Fabbri et al. which can be requested [here](https://github.com/fabbrimatteo/JTA-Dataset). The extension dataset for JTA can be downloaded from [here](annotationen für JTA). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when relating to our results.
 
 The annotation files for each sequence can be found in the respective directories as `coords.csv`. The annotation format 
 is aligned to the base JTA format, with the exception that the entries `row[10] - row[16]` are not part of the original JTA annotations.
