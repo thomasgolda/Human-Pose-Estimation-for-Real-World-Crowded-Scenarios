@@ -6,8 +6,7 @@
 |-----------------------------------|-----------------------------------------------------------------------------------------------|
 |EXPERIMENT_NAME                    | Name of the experiment. The output will be placed in a directory with the same name           |
 |DATASET                            | Path to the dataset config the experiment should be run on                                    |
-|FINETUNE                           | Provide path to a dataset config if you want to finetune on a different dataset               |
-|MODEL.backbone                     | Choose backbone network either: `resnet50` `resnet101` `resnet152`                            |   
+|MODEL.backbone                     | Choose backbone network either: `resnet50` `resnet101` `resnet152`                            |
 |MODEL.occluded_cross_branch        | Enable occlussion detection with OccNetCB                                                     |
 |MODEL.occluded_detection           | Enable occlussion detection with OccNet                                                       |
 |MODEL.occluded_hard_loss           | Enable loss that explicitly punishes if a keypoint is detected in the wrong branch.           |

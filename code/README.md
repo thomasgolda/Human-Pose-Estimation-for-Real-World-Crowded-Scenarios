@@ -36,7 +36,7 @@ train_images: images
 val_images: images
 test_images: images
 ```
-More examples can be found [here]().
+More examples can be found [here](,/experiments/).
 
 ### Usage
 
@@ -75,9 +75,10 @@ An explaination of all the arguments for `test.py` can be seen below:
 | `--cfg`      | `--cfg ../experiments/crowdpose_baseline.yaml`      |  Path to the config for the experiment which should be validated  |
 | `--test_epoch`      | `--test_epoch 140`      |  Select which checkpoint should be used for testing.  |
 | `--use_dets`      | `--use_dets`      |  Use human detections which are set in the dataset config.  |
+| `--dataset`      | `--dataset ../datasets/JTA.yaml`      |  Evaluate on a different dataset than specified in the experiment config by providing a path to a different yaml-config. Note this paramater is not required if you want to evaluate on the same dataset you trained on. Furthermore it is required that the keypoint format is aligned with the training dataset because the same loader will be utilized.|
 | `--vis`      | `--vis`      |  Visualize detections during evaluation. Pose predictions are drawn onto the images.  |
 | `--vis_occ`      | `--vis_occ`      |  Visualize occluded predictions during evaluation. Keypoints are drawn on person cutouts..  |
-| `--dataset`      | `--dataset `      |  Evaluate on a different dataset than specified in the experiment config by providing a path to a different yaml-config. Note this paramater is not required if you want to evaluate on the same dataset you trained on. Furthermore it is required that the keypoint format is aligned with the training dataset because the same loader will be utilized.|
+
 
 #### Adjusting Configs
 
