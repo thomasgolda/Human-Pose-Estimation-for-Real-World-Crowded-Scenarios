@@ -37,23 +37,23 @@ In order to fully align the format, `row[10] - row[16]` can simply be dropped.
 
 | Element   | Name          | Description                                                  |
 | --------  | ------------- | ------------------------------------------------------------ |
-| `row[0]`  | frame number  | number of the frame to which the joint belongs               |
-| `row[1]`  | person ID     | unique identifier of the person to which the joint belongs   |
-| `row[2]`  | joint type    | identifier of the type of joint; see 'Joint Types' subsection |
-| `row[3]`  | x2D           | 2D _x_ coordinate of the joint in pixel                      |
-| `row[4]`  | y2D           | 2D _y_ coordinate of the joint in pixel                      |
-| `row[5]`  | x3D           | 3D _x_ coordinate of the joint in meters                     |
-| `row[6]`  | y3D           | 3D _y_ coordinate of the joint in meters                     |
-| `row[7]`  | z3D           | 3D _z_ coordinate of the joint in meters                     |
-| `row[8]`  | occluded      | `1` if the joint is occluded; `0` otherwise                  |
-| `row[9]`  | self-occluded | `1` if the joint is occluded by its owner; `0` otherwise     |
-| `row[10]` | cam_3D_x      | 3D _x_ coordinate of the camera (not included in JTA base)   |
-| `row[11]` | cam_3D_y      | 3D _y_ coordinate of the camera (not included in JTA base)   |
-| `row[12]` | cam_3D_z      | 3D _z_ coordinate of the camera (not included in JTA base)   |
-| `row[13]` | cam_rot_x     | _x_ rotation of the camera (not included in JTA base)        |
-| `row[14]` | cam_rot_y     | _y_ rotation of the camera (not included in JTA base)        |
-| `row[15]` | cam_rot_z     | _z_ rotation of the camera (not included in JTA base)        |
-| `row[16]` | fov           | fov of the camera (not included in JTA base)                 |
+| `col[0]`  | frame number  | number of the frame to which the joint belongs               |
+| `col[1]`  | person ID     | unique identifier of the person to which the joint belongs   |
+| `col[2]`  | joint type    | identifier of the type of joint; see 'Joint Types' subsection |
+| `col[3]`  | x2D           | 2D _x_ coordinate of the joint in pixel                      |
+| `col[4]`  | y2D           | 2D _y_ coordinate of the joint in pixel                      |
+| `col[5]`  | x3D           | 3D _x_ coordinate of the joint in meters                     |
+| `col[6]`  | y3D           | 3D _y_ coordinate of the joint in meters                     |
+| `col[7]`  | z3D           | 3D _z_ coordinate of the joint in meters                     |
+| `col[8]`  | occluded      | `1` if the joint is occluded; `0` otherwise                  |
+| `col[9]`  | self-occluded | `1` if the joint is occluded by its owner; `0` otherwise     |
+| `col[10]` | cam_3D_x      | 3D _x_ coordinate of the camera (not included in JTA base)   |
+| `col[11]` | cam_3D_y      | 3D _y_ coordinate of the camera (not included in JTA base)   |
+| `col[12]` | cam_3D_z      | 3D _z_ coordinate of the camera (not included in JTA base)   |
+| `col[13]` | cam_rot_x     | _x_ rotation of the camera (not included in JTA base)        |
+| `col[14]` | cam_rot_y     | _y_ rotation of the camera (not included in JTA base)        |
+| `col[15]` | cam_rot_z     | _z_ rotation of the camera (not included in JTA base)        |
+| `col[16]` | fov           | fov of the camera (not included in JTA base)                 |
 
 
 ## Code
