@@ -28,11 +28,11 @@ We believe in open research and we are happy if you find our work inspiring. If 
 <div style="text-align: center;"><img src="https://github.com/thomasgolda/Human-Pose-Estimation-for-Real-World-Crowded-Scenarios/blob/master/avss2019_crowd-paper-qualitative-results.png?raw=true" alt="Qualitative results" /></div>
 
 ## JTA Extension
-For our experiments we created an extension to the dataset provided by Fabbri et al. which can be requested [here](https://github.com/fabbrimatteo/JTA-Dataset). The extension dataset for JTA can be downloaded from [here](annotationen für JTA). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when relating to our results.
+For our experiments we created an extension to the dataset provided by Fabbri et al. which can be requested [here](https://github.com/fabbrimatteo/JTA-Dataset). The extension dataset for JTA can be downloaded from [here](https://owncloud.fraunhofer.de/index.php/s/GHBJ3XnowJ8I3Z4). We think that Fabbri et al. did great work, so please [cite them](https://github.com/fabbrimatteo/JTA-Mods) as well when relating to our results.
 
 The annotation files for each sequence can be found in the respective directories as `coords.csv`. The annotation format 
-is aligned to the base JTA format, with the exception that the entries `row[10] - row[16]` are not part of the original JTA annotations.
-In order to fully align the format, `row[10] - row[16]` can simply be dropped.
+is aligned to the base JTA format, with the exception that the entries `col[10] - col[16]` are not part of the original JTA annotations.
+In order to fully align the format, `col[10] - col[16]` can simply be dropped.
 
 
 | Element   | Name          | Description                                                  |
