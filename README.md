@@ -1,5 +1,5 @@
 # Human Pose Estimation for Real-World Crowded Scenarios
-_Submitted for 2019 16th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)_
+_Accepted for 2019 16th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)_
 
 [![Crowded Pose Estimation header](https://github.com/thomasgolda/Human-Pose-Estimation-for-Real-World-Crowded-Scenarios/blob/master/header.png?raw=true)](https://www.iosb.fraunhofer.de/servlet/is/12481/)
 
