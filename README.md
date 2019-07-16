@@ -55,10 +55,6 @@ In order to fully align the format, `col[10] - col[16]` can simply be dropped.
 | `col[15]` | cam_rot_z     | _z_ rotation of the camera (not included in JTA base)        |
 | `col[16]` | fov           | fov of the camera (not included in JTA base)                 |
 
-
-## Code
-Our code for training will be available here soon.
-
 ## References
 [1] Xiao, B., Wu, H., & Wei, Y. (2018). _Simple baselines for human pose estimation and tracking. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 466-481)_.
 
