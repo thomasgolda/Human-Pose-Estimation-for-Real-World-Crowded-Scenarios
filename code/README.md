@@ -36,7 +36,7 @@ train_images: images
 val_images: images
 test_images: images
 ```
-More examples can be found [here](,/experiments/).
+More examples can be found [here](./experiments/).
 
 ### Usage
 
